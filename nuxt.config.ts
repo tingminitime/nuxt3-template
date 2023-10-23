@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/color-mode',
     '@pinia/nuxt',
+    '@vueuse/nuxt',
   ],
 
   postcss: {
@@ -15,6 +16,10 @@ export default defineNuxtConfig({
   },
 
   css: ['@/assets/css/main.css'],
+
+  colorMode: {
+    classSuffix: '',
+  },
 
   build: {
     transpile: ['@headlessui/vue'],

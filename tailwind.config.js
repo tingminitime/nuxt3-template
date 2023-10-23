@@ -4,15 +4,15 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 export default {
   darkMode: 'class',
   content: [
-    './src/components/**/*.{js,vue,ts}',
-    './src/layouts/**/*.vue',
-    './src/pages/**/*.vue',
-    './src/plugins/**/*.{js,ts}',
-    './src/nuxt.config.{js,ts}',
-    './src/app.vue',
-    './src/error.vue',
-    './src/assets/**/*.css',
-    './src/assets/**/*.scss',
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
+    './app.vue',
+    './error.vue',
+    './assets/**/*.css',
+    './assets/**/*.scss',
   ],
   theme: {
     extend: {
