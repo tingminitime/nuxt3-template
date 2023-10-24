@@ -1,20 +1,20 @@
-import type { Ref } from 'vue'
-import { ref } from 'vue'
-import { defineStore } from 'pinia'
+export const useCounterStore = defineStore('counter', () => {
+  const count = ref<number>(0)
 
-interface CounterState {
-  n: number
-  myRef: Ref<string>
-}
+  function increment() {
+    count.value += 1
+  }
 
-export const useCounter = defineStore('counter', {
-  state: (): CounterState => ({
-    n: 5,
-    myRef: ref('hello'),
-  }),
-  actions: {
-    increment() {
-      this.n++
-    },
-  },
+  function decrement() {
+    count.value -= 1
+  }
+
+  return {
+    count,
+    increment,
+    decrement,
+  }
 })
+
+if (import.meta.hot)
+  import.meta.hot.accept(acceptHMRUpdate(useCounterStore, import.meta.hot))

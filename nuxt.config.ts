@@ -21,6 +21,10 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
 
+  pinia: {
+    storesDirs: ['./store/**'],
+  },
+
   build: {
     transpile: ['@headlessui/vue'],
   },

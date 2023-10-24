@@ -59,7 +59,7 @@ export default antfu(
         'error',
         {
           whitelist: [
-            'my\\_(.*)',
+            'my\\[_-](.*)',
           ],
         },
       ],
