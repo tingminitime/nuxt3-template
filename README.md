@@ -1,5 +1,8 @@
 # Nuxt 3 Template
 
+![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/nuxt/master?color=00dc82)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/tailwindcss/master?color=0ea5e9)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/pinia/master?color=ffd859)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/%40vueuse%2Fnuxt/master?color=41b883)　![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/%40headlessui%2Fvue?color=69bdfe)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/eslint/master?color=4B32C3)
+
+
 This Nuxt 3 template is inspired by [antfu/vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) .
 
 ## Features
