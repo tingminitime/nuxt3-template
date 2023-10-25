@@ -37,7 +37,7 @@ Nuxt Modules :
 ## Clone to local
 
 ```bash
-git clone https://github.com/tingminitime/nuxt3-template.git
-cd nuxt3-template
+npx degit tingminitime/nuxt3-template <your-project-name>
+cd <your-project-name>
 pnpm install # If you don't have pnpm installed, run `npm i -g pnpm` first.
 ```
