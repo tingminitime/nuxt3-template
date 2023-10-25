@@ -1,4 +1,5 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { appDescription } from './constants/index'
+
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
@@ -27,6 +28,14 @@ export default defineNuxtConfig({
 
   build: {
     transpile: ['@headlessui/vue'],
+  },
+
+  app: {
+    head: {
+      meta: [
+        { name: 'description', content: appDescription },
+      ],
+    },
   },
 
   typescript: {
