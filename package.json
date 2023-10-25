@@ -11,7 +11,7 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "lint:view": "npx eslint-flat-config-viewer"
+    "lint:view": "pnpm dlx eslint-flat-config-viewer"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.16"
