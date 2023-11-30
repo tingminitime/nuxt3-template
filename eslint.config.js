@@ -9,6 +9,16 @@ export default antfu(
       'vue/no-unused-vars': 'warn',
       'unused-imports/no-unused-vars': 'warn',
       'vue/max-attributes-per-line': 'error',
+      'node/prefer-global/process': 'off',
+      'vue/html-self-closing': ['error', {
+        html: {
+          void: 'never',
+          normal: 'never',
+          component: 'always',
+        },
+        svg: 'always',
+        math: 'always',
+      }],
     },
   },
   /* From the second arguments they are ESLint Flat Configs */
