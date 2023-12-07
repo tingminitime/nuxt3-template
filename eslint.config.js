@@ -4,12 +4,9 @@ import tailwindcss from 'eslint-plugin-tailwindcss'
 export default antfu(
   /* onfigures for antfu's config */
   {
-    rules: {
-      'no-unused-vars': 'warn',
+    vue: {
       'vue/no-unused-vars': 'warn',
-      'unused-imports/no-unused-vars': 'warn',
       'vue/max-attributes-per-line': 'error',
-      'node/prefer-global/process': 'off',
       'vue/html-self-closing': ['error', {
         html: {
           void: 'never',
@@ -19,6 +16,13 @@ export default antfu(
         svg: 'always',
         math: 'always',
       }],
+    },
+    javascript: {
+      'unused-imports/no-unused-vars': 'warn',
+      'no-unused-vars': 'warn',
+    },
+    rules: {
+      'node/prefer-global/process': 'off',
     },
   },
   /* From the second arguments they are ESLint Flat Configs */
@@ -69,7 +73,7 @@ export default antfu(
         'error',
         {
           whitelist: [
-            'my\\[_-](.*)',
+            'my\\[_-](.*)', // You can rewrite this regex
           ],
         },
       ],

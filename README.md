@@ -1,9 +1,13 @@
+<p align="center">
+<img src="./public/icon-nuxt.svg" width="156" />
+</p>
+
 # Nuxt 3 Template
 
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/nuxt/master?color=00dc82)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/tailwindcss/master?color=0ea5e9)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/pinia/master?color=ffd859)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/%40vueuse%2Fnuxt/master?color=41b883)　![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/%40headlessui%2Fvue?color=69bdfe)　![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/tingminitime/nuxt3-template/dev/eslint/master?color=4B32C3)
 
 
-This Nuxt 3 template is inspired by [antfu/vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) .
+This Nuxt 3 template is inspired by [antfu/vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3).
 
 ## Features
 
@@ -34,9 +38,9 @@ Nuxt Modules :
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-### Volar Takeover Mode
+### [Volar Takeover Mode](https://vuejs.org/guide/typescript/overview.html#volar-takeover-mode)
 
-In order to enable Vue SFC (Single File Component) and TypeScript Vue Plugin (Volar) to work together in VSCode and enhance performance using Volar's Takeover Mode, follow these steps : 
+In order to enable Vue SFC ( Single File Component ) and TypeScript Vue Plugin ( [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) ) to work together in VSCode and enhance performance using Volar's Takeover Mode, follow these steps : 
 
 1. Press `F1` or `Ctrl` + `Shift` + `P` in VSCode.
 2. Type `built` and select `Extensions: Show Built-in Extensions`.
@@ -48,6 +52,10 @@ In order to enable Vue SFC (Single File Component) and TypeScript Vue Plugin (Vo
 If the configuration is successful, you will see the following icon in the bottom right corner of VSCode : 
 
 ![Volar Takeover Mode](https://raw.githubusercontent.com/tingminitime/my-assets/main/nuxt3-template/volar-takeover.png)
+
+## ESLint Configuration
+
+This template uses [@antfu/eslint-config](https://github.com/antfu/eslint-config).
 
 
 ## Clone to local

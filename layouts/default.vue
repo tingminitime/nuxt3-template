@@ -1,6 +1,6 @@
 <template>
   <main class="flex flex-col items-center px-8 py-16 text-center">
-    <slot></slot>
+    <slot />
     <div class="mx-auto mt-5 text-center text-sm opacity-50">
       [ Default Layout ]
     </div>

@@ -2,7 +2,7 @@
   "name": "nuxt3-template",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@8.10.3",
+  "packageManager": "pnpm@8.11.0",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "nuxt build",
@@ -19,7 +19,7 @@
     "@headlessui/vue": "^1.7.16"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "2.1.1",
+    "@antfu/eslint-config": "2.3.4",
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.2",
     "@pinia/nuxt": "^0.5.1",
@@ -27,16 +27,16 @@
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
-    "@vueuse/nuxt": "^10.6.1",
+    "@vueuse/nuxt": "^10.7.0",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.54.0",
+    "eslint": "^8.55.0",
     "eslint-plugin-tailwindcss": "^3.13.0",
     "nuxt": "^3.8.2",
     "pinia": "^2.1.7",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5",
-    "vue": "^3.3.9",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vue": "^3.3.10",
     "vue-router": "^4.2.5",
-    "vue-tsc": "^1.8.22"
+    "vue-tsc": "^1.8.25"
   }
 }
