@@ -4,22 +4,25 @@ import tailwindcss from 'eslint-plugin-tailwindcss'
 export default antfu(
   /* onfigures for antfu's config */
   {
-    vue: {
-      'vue/no-unused-vars': 'warn',
-      'vue/max-attributes-per-line': 'error',
-      'vue/html-self-closing': ['error', {
-        html: {
-          void: 'never',
-          normal: 'never',
-          component: 'always',
-        },
-        svg: 'always',
-        math: 'always',
-      }],
-    },
-    javascript: {
-      'unused-imports/no-unused-vars': 'warn',
-      'no-unused-vars': 'warn',
+    overrides: {
+      vue: {
+        'vue/no-unused-vars': 'warn',
+        'vue/max-attributes-per-line': 'error',
+        'vue/html-self-closing': ['error', {
+          html: {
+            void: 'never',
+            normal: 'never',
+            component: 'always',
+          },
+          svg: 'always',
+          math: 'always',
+        }],
+      },
+      javascript: {
+        'unused-imports/no-unused-vars': 'warn',
+        'unused-imports/no-unused-imports': 'warn',
+        'no-unused-vars': 'warn',
+      },
     },
     rules: {
       'node/prefer-global/process': 'off',
@@ -40,10 +43,13 @@ export default antfu(
       'nuxt.d.ts',
       '.DS_Store',
       '.vscode/',
-      '.md',
+      '*.md',
+      'netlify.toml',
+      'README.md',
       'package.json',
       'package-lock.json',
       'babel.config.js',
+      '*.toml',
       'graphql',
       'types.ts',
       'generated',
