@@ -4,8 +4,8 @@ import tailwindcss from 'eslint-plugin-tailwindcss'
 export default antfu(
   /* onfigures for antfu's config */
   {
-    overrides: {
-      vue: {
+    vue: {
+      overrides: {
         'vue/no-unused-vars': 'warn',
         'vue/max-attributes-per-line': 'error',
         'vue/html-self-closing': ['error', {
@@ -18,18 +18,14 @@ export default antfu(
           math: 'always',
         }],
       },
-      javascript: {
+    },
+    javascript: {
+      overrides: {
         'unused-imports/no-unused-vars': 'warn',
         'unused-imports/no-unused-imports': 'warn',
         'no-unused-vars': 'warn',
       },
     },
-    rules: {
-      'node/prefer-global/process': 'off',
-    },
-  },
-  /* From the second arguments they are ESLint Flat Configs */
-  {
     ignores: [
       'node_modules/',
       'dist/',
@@ -60,8 +56,12 @@ export default antfu(
       'auto-imports.d.ts',
       'components.d.ts',
     ],
+  },
+  /* From the second arguments they are ESLint Flat Configs */
+  {
     rules: {
       'no-unused-vars': 'off',
+      'node/prefer-global/process': 'off',
     },
   },
   {
