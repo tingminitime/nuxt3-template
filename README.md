@@ -1,4 +1,3 @@
-/** eslint-disable no-irregular-whitespace */
 <p align="center">
 <img src="./public/icon-nuxt.svg" width="156" />
 </p>
