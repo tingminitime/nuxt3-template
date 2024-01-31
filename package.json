@@ -30,12 +30,12 @@
     "@vueuse/nuxt": "^10.7.2",
     "autoprefixer": "^10.4.17",
     "eslint": "^8.56.0",
-    "eslint-plugin-tailwindcss": "^3.14.0",
-    "nuxt": "^3.9.3",
+    "eslint-plugin-tailwindcss": "^3.14.1",
+    "nuxt": "^3.10.0",
     "pinia": "^2.1.7",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1",
-    "vue": "^3.4.14",
+    "vue": "^3.4.15",
     "vue-router": "^4.2.5",
     "vue-tsc": "^1.8.27"
   }
