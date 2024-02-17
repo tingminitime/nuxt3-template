@@ -1,5 +1,12 @@
 <script lang="ts" setup>
 const online = useOnline()
+
+/**
+ * Repository pattern example
+ */
+const { $api } = useNuxtApp()
+const userRepo = repository($api)
+const { data } = await useAsyncData(() => userRepo.get())
 </script>
 
 <template>
@@ -13,6 +20,9 @@ const online = useOnline()
       You are offline.
     </div>
     <InputEntry />
+    <div class="text-left">
+      <pre>{{ data }}</pre>
+    </div>
   </div>
 </template>
 
