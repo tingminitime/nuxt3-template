@@ -37,4 +37,17 @@
       <DarkToggle class="p-1" />
     </li>
   </ul>
+
+  <p class="mt-3 text-sm text-gray-700 dark:text-gray-300">
+    <em>
+      This Vue 3 template is inspired by
+      <NuxtLink
+        href="https://github.com/antfu/vitesse-nuxt3"
+        target="_blank"
+        class="text-sky-600 hover:text-sky-500 dark:text-sky-500 dark:hover:text-sky-400"
+      >
+        antfu/vitesse-nuxt3
+      </NuxtLink>
+    </em>
+  </p>
 </template>
