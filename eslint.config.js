@@ -21,7 +21,15 @@ export default antfu(
     },
     javascript: {
       overrides: {
-        'unused-imports/no-unused-vars': 'warn',
+        'unused-imports/no-unused-vars': [
+          'warn',
+          {
+            vars: 'all',
+            varsIgnorePattern: '^_',
+            args: 'after-used',
+            argsIgnorePattern: '^_',
+          },
+        ],
         'unused-imports/no-unused-imports': 'warn',
         'no-unused-vars': 'warn',
       },
@@ -34,6 +42,7 @@ export default antfu(
       '.storybook/',
       'storybook-static',
       '.github/',
+      '.gitlab/',
       'coverage',
       '*.log',
       'nuxt.d.ts',

@@ -19,24 +19,24 @@
     "@headlessui/vue": "^1.7.19"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.8.0",
+    "@antfu/eslint-config": "^2.8.3",
     "@nuxt/devtools": "latest",
-    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/color-mode": "^3.3.3",
     "@pinia/nuxt": "^0.5.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
     "@vueuse/nuxt": "^10.9.0",
-    "autoprefixer": "^10.4.18",
+    "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
-    "eslint-plugin-tailwindcss": "^3.14.3",
-    "nuxt": "^3.10.3",
+    "eslint-plugin-tailwindcss": "^3.15.1",
+    "nuxt": "^3.11.1",
     "pinia": "^2.1.7",
-    "postcss": "^8.4.35",
+    "postcss": "^8.4.38",
     "tailwindcss": "^3.4.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
-    "vue-tsc": "^2.0.5"
+    "vue-tsc": "^2.0.7"
   }
 }
