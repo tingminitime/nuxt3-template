@@ -69,7 +69,7 @@ export default antfu(
   /* From the second arguments they are ESLint Flat Configs */
   {
     rules: {
-      'no-unused-vars': 'off',
+      'no-unused-vars': 'warn',
       'node/prefer-global/process': 'off',
     },
   },
