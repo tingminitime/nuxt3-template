@@ -20,7 +20,9 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.27.1",
+    "@iconify-json/carbon": "^1.1.37",
     "@nuxt/devtools": "latest",
+    "@nuxt/icon": "^1.4.10",
     "@nuxtjs/color-mode": "^3.4.4",
     "@pinia/nuxt": "^0.5.4",
     "@tailwindcss/aspect-ratio": "^0.4.2",

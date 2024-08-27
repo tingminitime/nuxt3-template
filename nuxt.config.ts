@@ -5,6 +5,7 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/color-mode',
+    '@nuxt/icon',
     '@pinia/nuxt',
     '@vueuse/nuxt',
   ],
@@ -38,12 +39,5 @@ export default defineNuxtConfig({
     },
   },
 
-  typescript: {
-    tsConfig: {
-      compilerOptions: {
-        strict: true,
-        // types: [],
-      },
-    },
-  },
+  compatibilityDate: '2024-08-27',
 })
